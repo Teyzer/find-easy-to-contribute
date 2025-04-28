@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 Then create a file named `.env` in the root of the project, and add your github token inside, like this:
 ```
-GITHUB_TOKEN= your_github_token
+GITHUB_TOKEN=your_github_token
 ```
 You can create a github token by going to github > settings > developer settings > personal access tokens > tokens (classic) > generate new token. Make sure to give it the `repo` scope, and copy the token.
 
